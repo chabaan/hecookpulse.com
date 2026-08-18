@@ -1,0 +1,66 @@
+---
+title: "Best Grilled Chicken Caesar Salad with Charred Lemon Dressing"
+meta: "Learn how to make a grilled chicken Caesar salad with a charred lemon twist. Expert tips for juicy chicken, crisp romaine, and a creamy homemade dressing."
+category: "Main Dishes"
+author: "ElenaPetrova"
+image: "https://hecookpulse.com/wp-content/uploads/2026/07/best-grilled-chicken-caesar-salad-with-c.webp"
+pubDate: "2026-07-11T21:36:08Z"
+recipe: "{\"title\": \"Grilled Chicken Caesar Salad\", \"ingredients\": [\"4 boneless (skinless chicken breasts (about 6 oz each))\", \"1 lemon (halved)\", \"3 tablespoons olive oil (divided)\", \"1 teaspoon kosher salt (plus more for seasoning)\", \"1/2 teaspoon black pepper (plus more for seasoning)\", \"2 hearts of romaine lettuce (halved lengthwise)\", \"1/2 cup freshly grated Parmesan cheese\", \"1 cup homemade or store-bought croutons\", \"For the dressing:\", \"1/2 cup mayonnaise\", \"2 tablespoons fresh lemon juice (from charred lemon half)\", \"1 teaspoon Dijon mustard\", \"1 small garlic clove (minced)\", \"1/2 teaspoon Worcestershire sauce\", \"1/4 cup extra-virgin olive oil\", \"2 tablespoons water\", \"Freshly ground black pepper\"], \"instructions\": [\"Prepare the grill for medium-high heat (about 400°F / 200°C). Clean and oil the grates.\", \"Pat chicken breasts dry with paper towels. Drizzle with 1 tablespoon olive oil, season evenly with 1 teaspoon salt and 1/2 teaspoon pepper.\", \"Place lemon halves cut-side down on the grill. Grill chicken for 5-7 minutes per side, until internal temperature reaches 165°F / 74°C (use an instant-read thermometer). Lemon halves should be charred and softened. Transfer chicken to a cutting board, rest 5 minutes, then slice against the grain.\", \"While chicken rests, brush cut sides of romaine halves with remaining 2 tablespoons olive oil. Grill cut-side down for 1-2 minutes until lightly charred but still crisp. Transfer to a platter.\", \"Make the dressing: In a small bowl, whisk together mayonnaise, 2 tablespoons fresh lemon juice from the charred lemon half, Dijon mustard, minced garlic, and Worcestershire sauce. Slowly stream in extra-virgin olive oil while whisking continuously. Add water to thin, then season with pepper. Taste and adjust salt if needed (the Parmesan adds salt later).\", \"To serve, arrange grilled romaine halves on plates or a large platter. Top with sliced chicken, a generous drizzle of dressing, shaved Parmesan (use a vegetable peeler for wide curls), and croutons. Finish with a final crack of black pepper.\"], \"equipment\": [\"grill or grill pan\", \"tongs\", \"chef's knife\", \"cutting board\", \"large bowl\", \"small bowl\", \"whisk\", \"vegetable peeler\", \"sheet pan\"], \"servings\": \"4\", \"prep_time\": \"20\", \"cook_time\": \"15\", \"total_time\": \"35\", \"calories\": \"420\"}"
+---
+
+<p>The first time I charred a lemon half on the grill, I was chasing a deeper flavor for Caesar salad — something beyond the usual tang. That smoky, caramelized edge transforms the dressing. It's not a gimmick; it's a small technique shift that makes the whole dish sing. Here's how to build a grilled chicken Caesar salad that earns a permanent spot in your weeknight rotation.</p>
+<figure><img src="https://cdn.midjourney.com/a2fab3a4-9b55-4eb5-ab1d-2ed3d5132b7d/0_2.png" alt="Whisking homemade Caesar dressing in a glass bowl with a charred lemon half nearby" /></figure>
+
+
+<h2>Start with the Chicken: Even Thickness Is Everything</h2>
+<p>Uneven chicken breasts are the most common reason for dry, overcooked meat. I take each breast and place it between two sheets of plastic wrap, then gently pound with a rolling pin or heavy skillet until it's an even 3/4-inch thick. This ensures the center cooks at the same rate as the edges. Pat the chicken very dry with paper towels — moisture is the enemy of a good sear. Season generously with salt and pepper, and a light drizzle of olive oil. Let it sit at room temperature for 15 minutes before grilling. This short rest lets the seasoning absorb and brings the meat closer to cooking temperature, reducing the shock of the hot grates.</p>
+
+<h2>The Grill: Medium-Hot and Clean</h2>
+<p>Preheat your grill or grill pan to medium-high, around 400°F / 200°C. You should be able to hold your hand about 5 inches above the grates for only 3 seconds. Scrub the grates clean with a wire brush, then lightly oil them (a paper towel dipped in oil and held with tongs works well). Place the chicken on the grill at a 45-degree angle to get those attractive crosshatch marks. Cook for 5-7 minutes per side, flipping only once. The chicken is ready when an instant-read thermometer inserted into the thickest part reads 165°F / 74°C. Transfer to a cutting board and let it rest for 5 minutes — do not skip this. Resting allows the juices to settle; slicing immediately will leave you with a dry, sad plate.</p>
+
+<h2>Char the Lemon and Romaine</h2>
+<p>While the chicken rests, place the lemon halves cut-side down on the grill. Let them cook undisturbed for 3-4 minutes until the cut surface is deeply charred and the lemon begins to soften. The heat caramelizes the natural sugars and mellows the sharp acidity. At the same time, brush the cut sides of the romaine halves with olive oil. Grill them cut-side down for 1-2 minutes — just long enough to get distinct grill marks and a slight wilt. The interior should stay cool and crunchy. Overcooking romaine turns it into a limp, watery mess. Pull it off while it still has structure.</p>
+
+<h2>The Dressing: Anchovy-Free, Big on Umami</h2>
+<p>I skip anchovies in my Caesar dressing because not everyone has a tin in the fridge, and the charred lemon provides enough savory depth. The real trick is the balance: 1 part acid to 3 parts fat. Squeeze the juice from one charred lemon half (you'll get about 2 tablespoons) and whisk it with mayonnaise, Dijon mustard, a tiny clove of minced garlic, and a splash of Worcestershire sauce. Worcestershire is the secret here — it brings that fermented, savory note that mimics anchovies without the fish. Slowly drizzle in extra-virgin olive oil while whisking constantly, then add water to loosen the dressing to a pourable consistency. Taste and adjust. The dressing should be tangy, creamy, and just a little sharp from the charred lemon.</p>
+
+<h2>Assemble with Intention</h2>
+<p>Slice the rested chicken against the grain into 1/2-inch thick strips. Arrange the grilled romaine halves on a large platter or individual plates. Drizzle a generous amount of dressing over the warm lettuce — the heat helps it cling. Lay the chicken slices on top. Use a vegetable peeler to shave wide ribbons of Parmesan over everything. Sprinkle with croutons and finish with a crack of black pepper. Serve immediately while the romaine is still warm from the grill and the dressing is at room temperature.</p>
+
+<h2>Make-Ahead Tips and Storage</h2>
+<p>This salad is best eaten right after assembly, but you can prep components ahead. The dressing keeps in the fridge for up to 5 days in a sealed jar. Let it come to room temperature and whisk before using. Grilled chicken can be cooked a day in advance, sliced cold, and added to the salad. The romaine should be grilled just before serving — leftover grilled romaine turns soggy. If you have leftover salad, store the components separately (dressing, chicken, lettuce, croutons) and assemble fresh the next day. Do not leave the assembled salad at room temperature for more than 2 hours.</p>
+
+<h3>Common Mistake: Overdressing</h3>
+<p>Caesar dressing is rich. Start with less than you think you need — about 2 tablespoons per serving — and add more if the salad looks dry. You can always add, but you can't take away. A soggy Caesar is a sad thing.</p>
+
+<p><strong>Takeaway:</strong> Grilled chicken Caesar salad is a study in contrasts — charred and cool, creamy and crisp, smoky and bright. Nail the chicken temperature, char the lemon, and dress with a light hand. The rest is just assembly.</p>
+
+<h2>Frequently Asked Questions</h2>
+<h3>Can I use a store-bought dressing for this recipe?</h3>
+<p>Yes, but the charred lemon adds a unique smoky brightness that bottled dressings lack. If you're short on time, look for a refrigerated Caesar dressing with real Parmesan and no artificial flavors, then squeeze in a little fresh lemon juice.</p>
+<h3>How do I keep the chicken from drying out on the grill?</h3>
+<p>Start with boneless, skinless breasts pounded to even thickness (about 3/4 inch). Pat them very dry before seasoning — moisture on the surface creates steam, not sear. Cook to exactly 165°F / 74°C, then rest for 5 minutes. Resting lets juices redistribute; slicing too early will dry it out.</p>
+<h3>What if I don't have a grill?</h3>
+<p>Use a cast-iron grill pan over high heat, or sear chicken in a regular skillet and finish in a 375°F / 190°C oven. For the romaine, char it directly in the hot pan for 1 minute per side. The lemon halves can be charred in the same pan.</p>
+<h3>Is the dressing safe if I'm pregnant or have a compromised immune system?</h3>
+<p>This dressing uses pasteurized mayonnaise and no raw eggs, so it is generally considered safe. However, if you have specific health concerns, consult your healthcare provider. The charred lemon adds acidity without raw egg risk.</p>
+
+
+<!--WPRM Recipe 215-->
+<div class="wprm-fallback-recipe">
+	<h2 class="wprm-fallback-recipe-name">Grilled Chicken Caesar Salad</h2>
+	<img class="wprm-fallback-recipe-image" src="https://hecookpulse.com/wp-content/uploads/2026/06/best-grilled-chicken-caesar-salad-with-c-150x150.webp"/>	<p class="wprm-fallback-recipe-summary">
+		Juicy grilled chicken over crisp romaine with a tangy charred lemon Caesar dressing, crunchy croutons, and shaved Parmesan.	</p>
+	<div class="wprm-fallback-recipe-equipment">
+		<ul><li>grill or grill pan</li><li>tongs</li><li>chef's knife</li><li>cutting board</li><li>large bowl</li><li>small bowl</li><li>whisk</li><li>vegetable peeler</li><li>sheet pan</li></ul>	</div>
+	<div class="wprm-fallback-recipe-ingredients">
+		<ul><li>4 boneless (skinless chicken breasts (about 6 oz each))</li><li>1 lemon (halved)</li><li>3 tablespoons olive oil (divided)</li><li>1 teaspoon kosher salt (plus more for seasoning)</li><li>1/2 teaspoon black pepper (plus more for seasoning)</li><li>2 hearts of romaine lettuce (halved lengthwise)</li><li>1/2 cup freshly grated Parmesan cheese</li><li>1 cup homemade or store-bought croutons</li><li>For the dressing:</li><li>1/2 cup mayonnaise</li><li>2 tablespoons fresh lemon juice (from charred lemon half)</li><li>1 teaspoon Dijon mustard</li><li>1 small garlic clove (minced)</li><li>1/2 teaspoon Worcestershire sauce</li><li>1/4 cup extra-virgin olive oil</li><li>2 tablespoons water</li><li>Freshly ground black pepper</li></ul>	</div>
+	<div class="wprm-fallback-recipe-instructions">
+		<ol><li>Prepare the grill for medium-high heat (about 400°F / 200°C). Clean and oil the grates.</li><li>Pat chicken breasts dry with paper towels. Drizzle with 1 tablespoon olive oil, season evenly with 1 teaspoon salt and 1/2 teaspoon pepper.</li><li>Place lemon halves cut-side down on the grill. Grill chicken for 5-7 minutes per side, until internal temperature reaches 165°F / 74°C (use an instant-read thermometer). Lemon halves should be charred and softened. Transfer chicken to a cutting board, rest 5 minutes, then slice against the grain.</li><li>While chicken rests, brush cut sides of romaine halves with remaining 2 tablespoons olive oil. Grill cut-side down for 1-2 minutes until lightly charred but still crisp. Transfer to a platter.</li><li>Make the dressing: In a small bowl, whisk together mayonnaise, 2 tablespoons fresh lemon juice from the charred lemon half, Dijon mustard, minced garlic, and Worcestershire sauce. Slowly stream in extra-virgin olive oil while whisking continuously. Add water to thin, then season with pepper. Taste and adjust salt if needed (the Parmesan adds salt later).</li><li>To serve, arrange grilled romaine halves on plates or a large platter. Top with sliced chicken, a generous drizzle of dressing, shaved Parmesan (use a vegetable peeler for wide curls), and croutons. Finish with a final crack of black pepper.</li></ol>	</div>
+	<div class="wprm-fallback-recipe-notes">
+		<p>Make ahead: Dressing keeps refrigerated in an airtight jar for up to 5 days. Let come to room temperature and whisk before using. Grilled chicken can be prepped a day ahead and sliced cold over the salad. For a dairy-free version, omit Parmesan and use a vegan mayo-based dressing. For gluten-free, use gluten-free croutons or toasted pumpkin seeds. Always wash hands after handling raw chicken, and never let cooked chicken sit at room temperature for more than 2 hours. For personalized dietary advice, consult a qualified professional.</p>
+	</div>
+	<div class="wprm-fallback-recipe-meta">
+		<div class="wprm-fallback-recipe-meta-course">Main Course</div><div class="wprm-fallback-recipe-meta-cuisine">American-Italian</div>	</div>
+</div>
+<!--End WPRM Recipe-->
