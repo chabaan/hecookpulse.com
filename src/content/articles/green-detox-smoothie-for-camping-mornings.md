@@ -3,7 +3,7 @@ title: "Green Detox Smoothie for Camping Mornings"
 meta: "Make a green detox smoothie at your campsite with this easy, no-refrigeration-needed recipe. Fresh, vibrant, and perfect for family camping trips."
 category: "Breakfast"
 author: "MiaCastellano"
-image: "https://hecookpulse.com/wp-content/uploads/2026/08/green-detox-smoothie-for-camping-morning.webp"
+image: "/images/green-detox-smoothie-for-camping-mornings.webp"
 pubDate: "2026-08-12T05:39:19Z"
 ---
 

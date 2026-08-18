@@ -3,7 +3,7 @@ title: "2-Ingredient Banana Pancake Muffins That Actually Keep You Full"
 meta: "Learn the exact ratio for 2-ingredient banana pancake muffins that are fluffy, portable, and satisfying. A practical breakfast hack with technique tips."
 category: "Breakfast"
 author: "HannahBrooks"
-image: "https://hecookpulse.com/wp-content/uploads/2026/07/2-ingredient-banana-pancake-muffins-that.webp"
+image: "/images/2-ingredient-banana-pancake-muffins-that-actually-keep-you-full.webp"
 pubDate: "2026-07-17T04:26:04Z"
 recipe: "{\"title\": \"2-Ingredient Banana Pancake Muffins\", \"ingredients\": [\"2 large ripe bananas (about 1 cup mashed, 2 large eggs)\"], \"instructions\": [\"Preheat oven to 350°F (175°C). Line 6 cups of a standard muffin tin with paper liners or spray generously with nonstick spray. In a mixing bowl, mash the bananas with a fork until mostly smooth with a few small lumps. Crack the eggs into the bowl and whisk vigorously until fully combined and slightly frothy, about 30 seconds. The batter will be thin—that's correct. Divide batter evenly among the prepared muffin cups, filling each about 2/3 full. Bake for 10-12 minutes, until the edges are set and golden, the tops spring back when lightly touched, and a toothpick inserted in the center comes out clean. Let cool in the pan for 2 minutes, then transfer to a wire rack. Serve warm or at room temperature.\"], \"equipment\": [\"mixing bowl\", \"fork or whisk\", \"12-cup muffin tin\", \"paper liners or nonstick spray\", \"ice cream scoop or spoon\", \"oven\"], \"servings\": \"6\", \"prep_time\": \"5\", \"cook_time\": \"12\", \"total_time\": \"17\", \"calories\": \"85\"}"
 ---

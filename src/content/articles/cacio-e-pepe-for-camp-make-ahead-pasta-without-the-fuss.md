@@ -3,7 +3,7 @@ title: "Cacio e Pepe for Camp: Make-Ahead Pasta Without the Fuss"
 meta: "Learn the foolproof method for creamy cacio e pepe at camp, with make-ahead tips and no-fail ratios for a no-refrigeration family dinner."
 category: "Main Dishes"
 author: "MiaCastellano"
-image: "https://hecookpulse.com/wp-content/uploads/2026/08/cacio-e-pepe-for-camp-make-ahead-pasta-w.webp"
+image: "/images/cacio-e-pepe-for-camp-make-ahead-pasta-without-the-fuss.webp"
 pubDate: "2026-08-18T04:32:38Z"
 ---
 

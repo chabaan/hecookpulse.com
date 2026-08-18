@@ -3,7 +3,7 @@ title: "Greek Yogurt Parfait Cups That Stay Crunchy (No Soggy Granola)"
 meta: "Greek yogurt parfait cups made with a simple layering technique that keeps granola crunchy. Quick, make-ahead breakfast with a foolproof ratio."
 category: "Breakfast"
 author: "HannahBrooks"
-image: "https://hecookpulse.com/wp-content/uploads/2026/07/greek-yogurt-parfait-cups-that-stay-crun.webp"
+image: "/images/greek-yogurt-parfait-cups-that-stay-crunchy-no-soggy-granola.webp"
 pubDate: "2026-07-09T04:12:52Z"
 recipe: "{\"title\": \"Greek Yogurt Parfait Cups\", \"ingredients\": [\"1 1/2 cups plain full-fat Greek yogurt\", \"1 tablespoon honey or maple syrup\", \"1/2 teaspoon vanilla extract\", \"1 cup mixed fresh berries (strawberries, blueberries, raspberries)\", \"1/2 cup granola (preferably cluster-style, low sugar)\", \"2 tablespoons sliced almonds (optional)\"], \"instructions\": [\"In a small bowl, stir together Greek yogurt, honey, and vanilla until smooth. Taste and adjust sweetness if needed.\", \"Wash and dry berries thoroughly. Slice strawberries into bite-sized pieces.\", \"Take two 8-ounce jars or glasses. Spoon 1/4 cup of the yogurt mixture into the bottom of each jar.\", \"Add a layer of berries (about 1/4 cup per jar) directly on top of the yogurt.\", \"Add another 1/4 cup of yogurt over the berries, spreading gently.\", \"Top with 1/4 cup granola per jar, pressing lightly into the yogurt so it stays put.\", \"Sprinkle sliced almonds on top if using. Serve immediately, or refrigerate for up to 4 hours for a crunch that still holds.\"], \"equipment\": [\"2 (8-ounce) jars or glasses\", \"small bowl\", \"spoon\"], \"servings\": \"2\", \"prep_time\": \"10\", \"cook_time\": null, \"total_time\": \"10\", \"calories\": \"320\"}"
 ---

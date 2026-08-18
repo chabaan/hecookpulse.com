@@ -3,7 +3,7 @@ title: "3-Ingredient Mango Lassi: Creamy, Tangy, 5 Minutes"
 meta: "Learn how to make a perfect 3-ingredient mango lassi at home. My simple ratio creates a creamy, tangy drink that rivals any café version."
 category: "Desserts & Drinks"
 author: "MiaCastellano"
-image: "https://hecookpulse.com/wp-content/uploads/2026/07/3-ingredient-mango-lassi-creamy-tangy-5-1-1.webp"
+image: "/images/3-ingredient-mango-lassi-creamy-tangy-5-minutes.webp"
 pubDate: "2026-07-20T15:05:31Z"
 recipe: "{\"title\": \"3-Ingredient Mango Lassi\", \"ingredients\": [\"2 ripe mangoes (about 2 cups peeled and cubed)\", \"1 cup plain full-fat yogurt (Greek or regular)\", \"1/2 cup cold whole milk (or water for a lighter version)\", \"2 tablespoons honey or sugar (optional, adjust to taste)\", \"Pinch of ground cardamom (optional, but recommended)\", \"Ice cubes (optional, for a colder drink)\"], \"instructions\": [\"Peel and cube the mangoes. For the best texture, use ripe, sweet mangoes (like Alphonso or Ataulfo). Avoid fibrous ones.\", \"Add the mango cubes, yogurt, milk, and honey (if using) to a blender. Add a pinch of cardamom if desired.\", \"Blend on high until completely smooth, about 30-45 seconds. The mixture should be thick and creamy, with no chunks remaining.\", \"Taste and adjust sweetness. The lassi should be tangy from the yogurt and sweet from the mango.\", \"For a colder drink, add 4-5 ice cubes and blend again for 10 seconds. Or serve over ice.\", \"Pour into glasses and serve immediately. The lassi will thicken as it sits; stir before drinking if needed.\"], \"equipment\": [\"Blender\", \"Measuring cups and spoons\", \"Knife\", \"Cutting board\"], \"servings\": \"2\", \"prep_time\": \"5\", \"cook_time\": null, \"total_time\": \"5\", \"calories\": \"220\"}"
 ---

@@ -3,7 +3,7 @@ title: "Cucumber Hummus Bites for Camping: Crisp & Cool"
 meta: "Make cucumber hummus bites at your campsite with this easy, no-cook recipe. Crisp, cool, and perfect for a light lunch or snack."
 category: "Sides & Appetizers"
 author: "SofiaRusso"
-image: "https://hecookpulse.com/wp-content/uploads/2026/08/cucumber-hummus-bites-for-camping-crisp-.webp"
+image: "/images/cucumber-hummus-bites-for-camping-crisp-cool.webp"
 pubDate: "2026-08-09T16:46:09Z"
 recipe: "{\"title\": \"Cucumber Hummus Bites\", \"ingredients\": [\"2 large cucumbers (1 cup hummus (store-bought or homemade), 1/2 teaspoon smoked paprika, 1 tablespoon fresh dill, chopped (optional), 1/4 teaspoon sea salt (optional))\"], \"instructions\": [\"Wash the cucumbers thoroughly. Slice off the ends, then cut into 1/2-inch thick rounds. Thicker slices hold up better for topping.\", \"Pat the cucumber slices dry with a paper towel. This helps the hummus stick and prevents sogginess.\", \"Spoon about 1 tablespoon of hummus onto each cucumber round. Use the back of a spoon to spread it slightly, leaving a small border around the edge.\", \"Sprinkle each bite with a pinch of smoked paprika and a bit of chopped dill, if using.\", \"Add a tiny pinch of sea salt over the top, if you like, especially if your hummus is low-sodium.\", \"Arrange on a plate and serve immediately. If you're at a campsite, keep them in the shade until serving.\"], \"equipment\": [\"cutting board\", \"sharp knife\", \"spoon or small spatula\", \"serving plate\"], \"servings\": \"4\", \"prep_time\": \"10\", \"cook_time\": null, \"total_time\": \"10\", \"calories\": \"120\"}"
 ---
