@@ -6,7 +6,7 @@ import Papa from 'papaparse';
 // ============================================
 // CONFIGURATION
 // ============================================
-const CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQm4Oh-yajeJolfnh5iubw8OpWylivlLhMcCGDP1q27a31cQ6N27G_oEkxqIhQfAODQo8WK86qOdifx/pub?gid=2094139023&single=true&output=csv';
+const CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQK3YFlLE9cyNMrmVS_y9J4_ZJ3O8kac71ip7XhY_mFprwb-pOwd_ENTbbdM_QmXUaSUIEZB34QcrM6/pub?gid=684955292&single=true&output=csv';
 
 const ARTICLES_DIR = './src/content/articles';
 const IMAGES_DIR = './public/images';
