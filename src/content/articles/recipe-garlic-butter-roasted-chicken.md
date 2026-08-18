@@ -1,0 +1,93 @@
+---
+title: "Recipe: Garlic Butter Roasted Chicken"
+meta: "Learn my method for garlic butter roasted chicken with perfectly crispy skin and juicy meat. One specific ratio guarantees success every time."
+category: "Main Dishes"
+author: "MarcoRossi"
+image: "https://hecookpulse.com/wp-content/uploads/2026/08/recipe-garlic-butter-roasted-chicken.webp"
+pubDate: "2026-08-15T01:44:26Z"
+recipe: "{\"title\": \"Garlic Butter Roasted Chicken\", \"ingredients\": [\"1 whole chicken (4 to 5 pounds, patted very dry)\", \"4 tablespoons unsalted butter (softened)\", \"4 cloves garlic (minced)\", \"1 teaspoon kosher salt (plus more for seasoning)\", \"1/2 teaspoon black pepper (plus more for seasoning)\", \"1 lemon (halved)\", \"4 sprigs fresh thyme (or 1/2 teaspoon dried)\", \"1 small onion (quartered)\", \"2 tablespoons olive oil\"], \"instructions\": [\"Position a rack in the center of the oven and preheat to 425°F (220°C).\", \"In a small bowl, mash the softened butter with the minced garlic, 1 teaspoon salt, and 1/2 teaspoon pepper until well combined. Set aside.\", \"Remove any giblets from the chicken cavity. Pat the chicken dry inside and out with paper towels — this is critical for crispy skin.\", \"Gently loosen the skin over the breast and thighs with your fingers. Spread half the garlic butter directly under the skin, pushing it evenly over the meat. Rub the remaining butter all over the outside of the chicken.\", \"Stuff the cavity with the lemon halves, thyme sprigs, and onion quarters. Tie the legs together with kitchen twine and tuck the wing tips under the body.\", \"Place the chicken breast-side up in a cold cast-iron skillet or roasting pan. Drizzle with olive oil and season the outside lightly with additional salt and pepper.\", \"Roast for 50 minutes, then baste with the pan juices. Continue roasting until the thickest part of the thigh reaches 165°F (74°C) on an instant-read thermometer — about 15 to 25 minutes more, depending on size.\", \"Remove from the oven and let rest on a cutting board for 15 minutes before carving. This allows juices to redistribute. Do not skip this step.\", \"While the chicken rests, pour the pan drippings into a small saucepan. Skim off excess fat if desired, then simmer for 1 minute to make a quick sauce. Serve alongside the carved chicken.\"], \"equipment\": [\"12-inch cast-iron skillet or heavy-duty roasting pan\", \"instant-read thermometer\", \"kitchen twine\", \"small saucepan\", \"basting brush\"], \"servings\": \"4\", \"prep_time\": \"15\", \"cook_time\": \"75\", \"total_time\": \"90\", \"calories\": \"520\"}"
+---
+
+{
+"title": "Garlic Butter Roasted Chicken Over a Campfire",
+"meta_description": "Learn to make garlic butter roasted chicken at camp—crispy skin, juicy meat, and a simple basting method for fire, grill, or stove.",
+"annotated_interests": "campfire chicken recipe, cast iron roasted chicken, garlic butter chicken, open fire cooking, Dutch oven chicken, camp stove roast chicken, foil packet chicken",
+"category": "Campfire Mains",
+"recipe_name": "Campfire Garlic Butter Roasted Chicken",
+"recipe_summary": "A whole chicken roasted in a Dutch oven with garlic butter basting—crispy skin, juicy meat, and a rich, savory aroma that fills the campsite.",
+"prep_time": "15 minutes",
+"cook_time": "1 hour 15 minutes",
+"servings": "4",
+"calories": "550 kcal (estimate)",
+"course": "Dinner",
+"cuisine": "American",
+"equipment": "12-inch cast iron Dutch oven, charcoal chimney or campfire, long-handled tongs, meat thermometer, basting brush, aluminum foil, cutting board, chef's knife",
+"ingredients": "1 whole chicken (about 4 lbs), 1/2 cup unsalted butter, 6 cloves garlic (minced), 1 lemon (halved), 1 tablespoon fresh thyme (or 1 tsp dried), 1 teaspoon salt, 1/2 teaspoon black pepper, 1/2 teaspoon smoked paprika (optional), 1 cup chicken broth (for the pot)",
+"instructions": "1. Light a campfire or charcoal chimney and let it burn until you have a bed of hot coals. You need about 20-25 coals for a 12-inch Dutch oven: 8-10 underneath and 12-15 on top.",
+"2. Pat the chicken dry with paper towels. Season inside and out with salt and pepper. Stuff the cavity with lemon halves and thyme.",
+"3. In a small saucepan, melt the butter over low heat. Add minced garlic and cook for 1 minute until fragrant, but don't let it brown. Set aside.",
+"4. Place the Dutch oven over the bottom coals and let it preheat for 5 minutes. Add a splash of chicken broth to the pot—this prevents scorching and adds moisture.",
+"5. Place the chicken breast-side up in the Dutch oven. Brush the outside with half of the garlic butter.",
+"6. Cover with the lid and place the top coals on. Roast for 1 hour to 1 hour 15 minutes, rotating the pot a quarter turn every 20 minutes for even heat.",
+"7. After 45 minutes, carefully remove the lid (use tongs and a heat-resistant glove) and baste with the remaining garlic butter. Check internal temperature—it should be at least 165°F in the thickest part of the thigh, not touching bone.",
+"8. If the skin isn't browned, remove the top coals and let it roast uncovered for the last 10 minutes to crisp up.",
+"9. Once done, carefully lift the chicken out of the pot and let it rest on a cutting board for 10-15 minutes before carving. The juices will redistribute, keeping the meat moist.",
+"10. Spoon any pan juices over the carved chicken before serving.",
+"notes": "Storage: Refrigerate leftovers within 2 hours of cooking. Keep in a sealed container and eat within 3 days. To reheat, place in a skillet over medium heat with a splash of broth. For camping without refrigeration, cook and eat immediately—don't leave leftovers out. Always use a meat thermometer to ensure 165°F. Safety: Use heat-resistant gloves and long tongs when handling hot coals and the Dutch oven. Keep a bucket of water or a fire extinguisher nearby. Allergens: This recipe contains dairy (butter) and possible gluten if served with bread. For a dairy-free version, use olive oil instead of butter. For specific dietary needs, consult a qualified professional.",
+"featured_image_alt": "Cast iron Dutch oven with roasted chicken, golden brown skin, garlic butter sauce drizzled on top, set on campfire coals",
+"featured_image_title": "Campfire Garlic Butter Roasted Chicken in Dutch Oven",
+"featured_image_description": "A whole chicken roasted to golden perfection in a cast iron Dutch oven, with garlic butter glaze and charred coals in the background.",
+"image2_alt": "Basting a whole chicken with garlic butter inside a Dutch oven over campfire coals",
+"image2_title": "Basting Garlic Butter Chicken Over Campfire",
+"image2_description": "Close-up of brushing garlic butter over a roasting chicken in a Dutch oven, with steam rising and coals glowing below.",
+"internal_links": "How to Build a Campfire for Cooking, Dutch Oven Camping Recipes for Beginners, Cast Iron Skillet Chicken Thighs with Garlic",
+"faq": [
+{
+"question": "Can I use a grill instead of a campfire?",
+"answer": "Yes. Set up your grill for indirect heat at 350°F. Place the Dutch oven on the grill grates (or a disposable aluminum pan if using a regular pan), cover, and roast for the same time. Check the internal temperature—165°F in the thigh. If using a charcoal grill, bank the coals to one side and place the pot on the other."
+},
+{
+"question": "How do I know when the chicken is done without a thermometer?",
+"answer": "While a thermometer is safest, you can check by piercing the thickest part of the thigh with a fork. The juices should run clear, not pink. Also, wiggle the leg—it should move easily in the socket. But for food safety, I recommend carrying a digital meat thermometer; it's a small tool that prevents undercooked poultry."
+},
+{
+"question": "Can I use chicken pieces instead of a whole bird?",
+"answer": "Absolutely. Use bone-in, skin-on thighs and drumsticks. They cook faster—about 40-50 minutes. Reduce the broth to 1/2 cup and the butter to 1/3 cup. Follow the same basting method. The internal temperature for chicken pieces is also 165°F."
+}
+],
+"content": "<p>The first thing you notice is the butter. It hits the hot cast iron and sizzles, sending up a fragrant puff of garlic that drifts over the campsite. Then the chicken skin starts to crisp, turning a deep golden brown, and you know dinner is going to be good. This isn't a complicated recipe—it's about letting fire and butter do the work.</p>
+<figure><img src="https://cdn.midjourney.com/10915720-f6e4-4f47-be9c-b03fa3f2f373/0_0_640_N.webp" alt="Spreading garlic butter under the chicken skin before roasting" /></figure>
+\n\n<h2>Why Roast a Whole Chicken at Camp</h2>\n<p>A whole chicken is a practical camp dinner. One bird feeds four people, and it's cheaper than buying individual breasts. Plus, the bones make a quick broth for the next morning's oatmeal or soup. The trick is managing heat, and a cast iron Dutch oven makes that easy. It holds steady temperature, and the heavy lid traps steam, keeping the meat juicy.</p>\n\n<h2>The Garlic Butter Method</h2>\n<p>Garlic butter is simple, but the ratio matters. For a 4-pound chicken, use 1/2 cup of butter and 6 cloves of garlic. That's enough to baste the bird twice without drowning it. Mince the garlic fine so it distributes evenly. Cook it in the butter for just a minute—you want to soften the sharpness, not brown it. Burnt garlic turns bitter.</p>\n\n<p>Brush half the butter on before roasting, then baste again at the 45-minute mark. That second coat is what builds the sticky, flavorful crust. If you skip it, the skin will be dry.</p>\n\n<h2>Building Your Fire for Even Heat</h2>\n<p>You don't need a roaring fire. You need coals—steady, glowing coals that give off heat without flames. Start a campfire or use a charcoal chimney. Let the wood burn down until the coals are ash-covered and orange. For a 12-inch Dutch oven, you'll want about 20-25 coals total. Arrange 8-10 underneath the pot and 12-15 on top of the lid. That top heat is what browns the chicken breast.</p>\n\n<p>Rotate the pot a quarter turn every 20 minutes. This prevents hot spots, which are common with campfires. If you're using a grill, set it up for indirect heat at 350°F and place the pot on the grate.</p>\n\n<h2>Step-by-Step: From Coals to Carving</h2>\n<p>Once your coals are ready, pat the chicken dry. Dry skin is crispy skin. Season the inside and out with salt and pepper. Stuff the cavity with lemon halves and thyme—the lemon steams from the inside, keeping the meat tender.</p>\n\n<p>Melt the butter in a small pan over low heat, add the garlic, and cook for one minute. Then place the chicken breast-side up in the preheated Dutch oven. Add a splash of chicken broth to the bottom—about a cup. This creates steam and prevents the drippings from burning.</p>\n\n<p>Brush the chicken with half the garlic butter, cover, and place the top coals on. Roast for 1 hour to 1 hour 15 minutes. The exact time depends on your fire's heat and the bird's size. At 45 minutes, carefully remove the lid and baste with the remaining butter. Check the temperature at the 1-hour mark. You're looking for 165°F in the thickest part of the thigh, not touching bone. If it's not there yet, put the lid back on and check again in 10 minutes.</p>\n\n<p>If the skin is pale, remove the top coals for the last 10 minutes to let the skin crisp. The breast will still cook from the bottom heat.</p>\n\n<h2>Resting Is Non-Negotiable</h2>\n<p>When the chicken hits 165°F, pull it out and let it rest for 10-15 minutes. This is the hardest step to wait for, but it's crucial. The juices are bubbling inside; if you cut into it immediately, they'll run out, and the meat will be dry. Resting lets the fibers relax and reabsorb the moisture. You'll have juicy meat and a cleaner carve.</p>\n\n<h2>Adapting for a Camp Stove or Grill</h2>\n<p>No campfire? No problem. On a camp stove, use a heavy pot with a tight lid and cook over low heat, checking the temperature often. The bottom might brown faster, so use a heat diffuser if you have one. On a grill, set it up for indirect heat—coals on one side, chicken on the other. The same basting method works, but you'll need to check the heat more often because grills fluctuate.</p>\n\n<h2>Common Mistakes to Avoid</h2>\n<p>The biggest mistake is using too much heat. If the coals are flaming, you'll burn the outside and leave the inside raw. Stick to glowing coals, not flames. Another mistake is skipping the rest. I get it—you're hungry. But that 10 minutes is what separates a good camp chicken from a great one.</p>\n\n<p>Also, don't forget to check the temperature. A meat thermometer is a small tool that saves you from undercooked poultry. It's worth the extra ounce in your pack.</p>\n\n<h2>What to Serve With It</h2>\n<p>This chicken is rich, so keep sides simple. A foil packet of new potatoes with rosemary, or a quick salad of greens and cherry tomatoes. The pan juices are liquid gold—spoon them over the carved meat or mix them into instant mashed potatoes for a flavor boost.</p>\n\n<p>For leftovers, store in a sealed container and refrigerate within two hours. Use them for sandwiches or a chicken salad the next day. If you're camping without a cooler, cook only what you'll eat and skip leftovers.</p>\n\n<h2>Takeaway</h2>\n<p>Garlic butter roasted chicken over a campfire is one of those meals that feels like a celebration. The aroma draws people over, and the taste lives up to the hype. It takes a little patience, but the payoff is a golden, juicy bird that makes you wonder why you ever cooked chicken any other way. Fire up the coals, and give it a try.</p>"
+}
+
+<h2>Frequently Asked Questions</h2>
+<h3>Why is my roasted chicken skin not crispy?</h3>
+<p>The most common culprit is moisture. Pat the chicken very dry with paper towels before applying butter. Also, avoid covering the pan during roasting — steam traps moisture and softens the skin. Roasting at a high temperature (425°F) initially helps render fat and crisp the skin.</p>
+<h3>How do I know when the chicken is fully cooked without a thermometer?</h3>
+<p>While an instant-read thermometer is the most reliable tool (165°F at the thickest part of the thigh), you can also check by piercing the thigh with a knife — the juices should run clear, not pink. The leg should move easily in the joint. But for safety, I highly recommend using a thermometer.</p>
+<h3>Can I use salted butter instead of unsalted?</h3>
+<p>Yes, but reduce the added salt by about 1/4 teaspoon. Unsalted butter gives you more control over the final seasoning, especially since the pan drippings will concentrate as they reduce.</p>
+<h3>How do I make this recipe gluten-free?</h3>
+<p>This recipe is naturally gluten-free as written. Just ensure any additional seasonings or broths you use are certified gluten-free. No substitutions needed for the core ingredients.</p>
+<h3>What size chicken works best for this method?</h3>
+<p>A 4 to 5 pound bird is ideal. Anything smaller may dry out before the skin crisps; anything larger requires adjusting the roasting time and may cook unevenly in a standard skillet.</p>
+
+
+<!--WPRM Recipe 1666-->
+<div class="wprm-fallback-recipe">
+	<h2 class="wprm-fallback-recipe-name">Garlic Butter Roasted Chicken</h2>
+	<img class="wprm-fallback-recipe-image" src="https://hecookpulse.com/wp-content/uploads/2026/08/recipe-garlic-butter-roasted-chicken-150x150.webp"/>	<p class="wprm-fallback-recipe-summary">
+		A straightforward method for a whole roasted chicken basted with garlic butter, delivering crisp golden skin and tender, juicy meat. The key is a specific butter-to-chicken ratio that ensures even browning and flavor.	</p>
+	<div class="wprm-fallback-recipe-equipment">
+		<ul><li>12-inch cast-iron skillet or heavy-duty roasting pan</li><li>instant-read thermometer</li><li>kitchen twine</li><li>small saucepan</li><li>basting brush</li></ul>	</div>
+	<div class="wprm-fallback-recipe-ingredients">
+		<ul><li>1 whole chicken (4 to 5 pounds, patted very dry)</li><li>4 tablespoons unsalted butter (softened)</li><li>4 cloves garlic (minced)</li><li>1 teaspoon kosher salt (plus more for seasoning)</li><li>1/2 teaspoon black pepper (plus more for seasoning)</li><li>1 lemon (halved)</li><li>4 sprigs fresh thyme (or 1/2 teaspoon dried)</li><li>1 small onion (quartered)</li><li>2 tablespoons olive oil</li></ul>	</div>
+	<div class="wprm-fallback-recipe-instructions">
+		<ol><li>Position a rack in the center of the oven and preheat to 425°F (220°C).</li><li>In a small bowl, mash the softened butter with the minced garlic, 1 teaspoon salt, and 1/2 teaspoon pepper until well combined. Set aside.</li><li>Remove any giblets from the chicken cavity. Pat the chicken dry inside and out with paper towels — this is critical for crispy skin.</li><li>Gently loosen the skin over the breast and thighs with your fingers. Spread half the garlic butter directly under the skin, pushing it evenly over the meat. Rub the remaining butter all over the outside of the chicken.</li><li>Stuff the cavity with the lemon halves, thyme sprigs, and onion quarters. Tie the legs together with kitchen twine and tuck the wing tips under the body.</li><li>Place the chicken breast-side up in a cold cast-iron skillet or roasting pan. Drizzle with olive oil and season the outside lightly with additional salt and pepper.</li><li>Roast for 50 minutes, then baste with the pan juices. Continue roasting until the thickest part of the thigh reaches 165°F (74°C) on an instant-read thermometer — about 15 to 25 minutes more, depending on size.</li><li>Remove from the oven and let rest on a cutting board for 15 minutes before carving. This allows juices to redistribute. Do not skip this step.</li><li>While the chicken rests, pour the pan drippings into a small saucepan. Skim off excess fat if desired, then simmer for 1 minute to make a quick sauce. Serve alongside the carved chicken.</li></ol>	</div>
+	<div class="wprm-fallback-recipe-notes">
+		<p>Storage: Refrigerate leftover chicken in an airtight container for up to 3 days. Reheat gently in a 350°F oven to avoid drying out. For food safety, ensure leftover chicken reaches 165°F when reheated. To make this dairy-free, substitute the butter with a high-quality plant-based butter or 3 tablespoons olive oil mixed with 1 tablespoon nutritional yeast for a savory note. Always handle raw chicken carefully — wash hands and surfaces thoroughly. For dietary concerns, consult a qualified professional.</p>
+	</div>
+	<div class="wprm-fallback-recipe-meta">
+		<div class="wprm-fallback-recipe-meta-course">Main Course</div><div class="wprm-fallback-recipe-meta-cuisine">American</div>	</div>
+</div>
+<!--End WPRM Recipe-->
