@@ -1,11 +1,12 @@
 ---
 import { siteConfig } from '../site.config';
 interface Props { position: keyof typeof siteConfig.ads.slots }
-const code = siteConfig.ads.slots[Astro.props.position];
+const { position } = Astro.props;
+const code = siteConfig.ads.slots[position];
 ---
 {code && (
 	<aside class={`ad-slot ad-${Astro.props.position}`} aria-label="Advertisement">
-		<span class="ad-label">Advertisement</span>
+		{position !== 'top' && <span class="ad-label">Advertisement</span>}
 		<Fragment set:html={code} />
 	</aside>
 )}

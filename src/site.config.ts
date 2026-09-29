@@ -28,12 +28,19 @@ export const siteConfig = {
 		headCode: '<script src="https://d3u598arehftfk.cloudfront.net/prebid_hb_37888_42726.js" async></script>',
 		// Paste each HB Agency placement code here. Leave "" to hide that position.
 		slots: {
-			top: "",          // under the title (first thing readers see)
-			outstream: "",    // video ad after the 2nd paragraph
-			inarticle1: "",   // inside the text, about 1/3 of the page
-			interscroller: "",// full-screen scroll ad, about 2/3 of the page
-			inarticle2: "",   // end of the text, kept well above the Next button
-			sticky: "",       // sticky floor / side ads, on every page of the site
+			// hecookpulse_In Image (335808): under the featured image
+			top: "<div id='hbagency_space_335808'></div>",
+			outstream: "",    // video ad after the 2nd paragraph (no placement yet)
+			// hecookpulse_In Page (335809): inside the text
+			inarticle1: '<div class="hb-ad-inpage"><div class="hb-ad-inner"><div class="hbagency_cls hbagency_space_335809"></div></div></div>',
+			interscroller: "",// full-screen scroll ad (no placement yet)
+			inarticle2: "",   // end of the text (no placement yet)
+			// Site-wide: Interstitial (335807) + Sticky floor 728x90 (335805) + Magic Left 300x600 (335806)
+			sticky: [
+				"<div id='hbagency_space_335807'></div>",
+				"<div id='HB_Footer_Close_hbagency_space_335805'><div id='HB_CLOSE_hbagency_space_335805'></div><div id='HB_OUTER_hbagency_space_335805'><div id='hbagency_space_335805'></div></div></div>",
+				"<div id='HB_Footer_Close_hbagency_space_335806'><div id='HB_CLOSE_hbagency_space_335806'></div><div id='HB_OUTER_hbagency_space_335806'><div id='hbagency_space_335806'></div></div></div>",
+			].join(""),
 		},
 	},
 
