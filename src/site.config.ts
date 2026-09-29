@@ -25,11 +25,15 @@ export const siteConfig = {
 	// headCode: the script your ad network asks you to put in <head>.
 	// slots: the ad-unit code for each position. Leave "" to hide that position.
 	ads: {
-		headCode: "",
+		headCode: '<script src="https://d3u598arehftfk.cloudfront.net/prebid_hb_37888_42726.js" async></script>',
+		// Paste each HB Agency placement code here. Leave "" to hide that position.
 		slots: {
-			top: "",      // under the title / image
-			middle: "",   // in the middle of each page's text
-			bottom: "",   // end of each page, kept well above the Next button
+			top: "",          // under the title (first thing readers see)
+			outstream: "",    // video ad after the 2nd paragraph
+			inarticle1: "",   // inside the text, about 1/3 of the page
+			interscroller: "",// full-screen scroll ad, about 2/3 of the page
+			inarticle2: "",   // end of the text, kept well above the Next button
+			sticky: "",       // sticky floor / side ads, on every page of the site
 		},
 	},
 

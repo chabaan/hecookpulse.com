@@ -58,3 +58,37 @@ export function splitInMiddle(html: string): [string, string] {
 	const mid = candidates[Math.floor(candidates.length / 2)];
 	return [lines.slice(0, mid + 1).join('\n'), lines.slice(mid + 1).join('\n')];
 }
+
+/**
+ * Splits html after top-level paragraphs at the given positions.
+ * `after` = paragraph number (2 = after the 2nd paragraph), or a fraction (0.33 = a third of the way).
+ * Returns the chunks in order; positions that can't be placed are skipped (empty chunk).
+ */
+export function splitAtParagraphs(html: string, positions: number[]): string[] {
+	const lines = html.split('\n');
+	const paras = lines
+		.map((l, i) => (/^<p[\s>]/.test(l) && /<\/p>\s*$/.test(l) ? i : -1))
+		.filter((i) => i >= 0);
+	const cutLines: number[] = [];
+	let last = -1;
+	for (const pos of positions) {
+		const idx = pos >= 1 ? pos - 1 : Math.round(paras.length * pos);
+		const line = paras[idx];
+		// Need at least one paragraph between two ads and content after the cut.
+		if (line === undefined || line <= last || idx >= paras.length - 1 || (last >= 0 && paras.filter((p) => p > last && p <= line).length < 2)) {
+			cutLines.push(-1);
+			continue;
+		}
+		cutLines.push(line);
+		last = line;
+	}
+	const chunks: string[] = [];
+	let from = 0;
+	for (const c of cutLines) {
+		if (c < 0) { chunks.push(''); continue; }
+		chunks.push(lines.slice(from, c + 1).join('\n'));
+		from = c + 1;
+	}
+	chunks.push(lines.slice(from).join('\n'));
+	return chunks;
+}

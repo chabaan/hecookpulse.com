@@ -98,7 +98,7 @@ footer.site-footer .footer-nav a:hover{color:var(--accent);text-decoration:under
 .recipe-section li{margin-bottom:8px;line-height:1.55;color:#333;}
 
 /* ---- Ads ---- */
-.ad-slot{margin:32px auto;padding:8px 0;text-align:center;min-height:100px;clear:both;}
+.ad-slot{margin:36px auto;padding:8px 0;text-align:center;min-height:100px;clear:both;}
 .ad-label{display:block;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:#8a8a8a;margin-bottom:6px;}
 
 /* ---- Article pages (Next) ---- */
@@ -121,3 +121,6 @@ footer.site-footer .footer-nav a:hover{color:var(--accent);text-decoration:under
 	body.printing-recipe .recipe-card{position:absolute;left:0;top:0;width:100%;border:0;box-shadow:none;}
 	body.printing-recipe .recipe-download,body.printing-recipe .ad-slot{display:none !important;}
 }
+.ad-slot.ad-sticky{margin:0;min-height:0;padding:0;}
+.ad-slot.ad-sticky .ad-label{display:none;}
+.ad-slot.ad-inarticle2{margin-bottom:56px;}
