@@ -37,6 +37,9 @@ const categories = [...new Set(articles.map((a) => a.data.category).filter(Boole
 		{ogImage && <meta name="twitter:image" content={ogImage} />}
 		{siteConfig.ads.headCode && <Fragment set:html={siteConfig.ads.headCode} />}
 		<slot name="head" />
+		{siteConfig.analytics?.goatcounterCode && (
+			<script is:inline async data-goatcounter={`https://${siteConfig.analytics.goatcounterCode}.goatcounter.com/count`} src="https://gc.zgo.at/count.js"></script>
+		)}
 	</head>
 	<body>
 		<header class="site-header">

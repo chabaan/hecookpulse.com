@@ -44,6 +44,11 @@ export const siteConfig = {
 		},
 	},
 
+	// Visitor stats (GoatCounter, free & lightweight). Dashboard: https://hecookpulse.goatcounter.com
+	analytics: {
+		goatcounterCode: "hecookpulse",
+	},
+
 	// Footer
 	footerText: "Built with Astro — synced from WordPress backup & Google Sheet",
 };
