@@ -12,13 +12,13 @@ title: "About HeCookPulse"
 
 <h2 class="wp-block-heading">Meet Nora Hale</h2>
 
-<figure class="about-hero"><img src="/images/nora-hale-lake.webp" alt="Nora Hale on a snowy lake at night, with the village lights behind her" loading="lazy" width="1036" height="784" /></figure>
+<figure class="about-hero"><img src="/images/nora-hale-lake-600.webp" srcset="/images/nora-hale-lake-600.webp 600w, /images/nora-hale-lake.webp 1036w" sizes="(max-width: 760px) 92vw, 760px" decoding="async" alt="Nora Hale on a snowy lake at night, with the village lights behind her" loading="lazy" width="1036" height="784" /></figure>
 
 <p>Hi, I'm Nora, the home cook behind HeCookPulse. I grew up in a small lakeside village where winters are long, the snow is deep, and the kitchen is always the warmest room in the house. That's where I learned that a good meal is really about the people gathered around it.</p>
 
 <p>Some of my favorite food memories happened far from a proper kitchen: rowing across the lake on a cold evening with a lantern and a thermos of soup, or cooking over a campfire with nothing but one skillet and a handful of ingredients. Those moments taught me to keep things simple, to cook with what I have, and to never skip the little details that make a dish taste like home.</p>
 
-<figure class="about-hero"><img src="/images/nora-hale-window.webp" alt="Nora Hale by a frosted window, looking out at the snowy village" loading="lazy" width="1036" height="726" /></figure>
+<figure class="about-hero"><img src="/images/nora-hale-window-600.webp" srcset="/images/nora-hale-window-600.webp 600w, /images/nora-hale-window.webp 1036w" sizes="(max-width: 760px) 92vw, 760px" decoding="async" alt="Nora Hale by a frosted window, looking out at the snowy village" loading="lazy" width="1036" height="726" /></figure>
 
 <p>Every recipe on this site is one I cook, taste, and tweak until it works in a real home kitchen, not a restaurant one. I write them the way I'd explain them to a friend standing next to me: clear steps, honest timings, and the small tricks I wish someone had told me sooner.</p>
 

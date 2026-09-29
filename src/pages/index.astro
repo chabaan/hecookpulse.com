@@ -17,13 +17,29 @@ const totalArticles = sorted.length;
 ---
 <Base title={`${siteConfig.name} — Home`}>
 	<main>
-		<h2 class="section-title">Latest Articles ({totalArticles})</h2>
+		<section class="welcome">
+			<div class="welcome-photo">
+				<img src="/images/nora-hale-lake-600.webp" srcset="/images/nora-hale-lake-600.webp 600w, /images/nora-hale-lake.webp 1036w" sizes="(max-width: 760px) 92vw, 480px" alt="Nora Hale on a snowy lake at night" width="600" height="454" fetchpriority="high" decoding="async" />
+			</div>
+			<div class="welcome-text">
+				<div class="welcome-kicker">Welcome to my kitchen</div>
+				<h2>Hi, I'm Nora! 👋</h2>
+				<p>I'm a home cook from a snowy lakeside village, where the kitchen is always the warmest room in the house. Here I share <strong>simple, tested recipes</strong> for cozy dinners, campfire cooking and sweet treats that work the first time, in any home kitchen.</p>
+				<p>Every recipe comes with clear steps, honest timings, and a <strong>free download</strong> so you can keep it forever.</p>
+				<div class="welcome-actions">
+					<a class="welcome-btn" href="/about-hecookpulse/">Read my story</a>
+					<a class="welcome-link" href="#latest">Browse recipes &darr;</a>
+				</div>
+			</div>
+		</section>
+
+		<h2 class="section-title" id="latest">Latest Articles ({totalArticles})</h2>
 		<div class="grid">
 			{pageItems.map((a, i) => (
 				<div class="card">
 					<a href={`/${a.id}/`}>
 						{i === 0 ? (
-							<img class="thumb" src={a.data.image} alt={a.data.title} fetchpriority="high" onerror="this.style.display='none'" />
+							<img class="thumb" src={a.data.image} alt={a.data.title} onerror="this.style.display='none'" />
 						) : (
 							<img class="thumb" src={a.data.image} alt={a.data.title} loading="lazy" onerror="this.style.display='none'" />
 						)}
