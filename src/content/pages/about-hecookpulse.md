@@ -10,6 +10,22 @@ title: "About HeCookPulse"
 
 
 
+<h2 class="wp-block-heading">Meet Nora Hale</h2>
+
+<figure class="about-hero"><img src="/images/nora-hale-lake.webp" alt="Nora Hale on a snowy lake at night, with the village lights behind her" loading="lazy" width="1036" height="784" /></figure>
+
+<p>Hi, I'm Nora, the home cook behind HeCookPulse. I grew up in a small lakeside village where winters are long, the snow is deep, and the kitchen is always the warmest room in the house. That's where I learned that a good meal is really about the people gathered around it.</p>
+
+<p>Some of my favorite food memories happened far from a proper kitchen: rowing across the lake on a cold evening with a lantern and a thermos of soup, or cooking over a campfire with nothing but one skillet and a handful of ingredients. Those moments taught me to keep things simple, to cook with what I have, and to never skip the little details that make a dish taste like home.</p>
+
+<figure class="about-hero"><img src="/images/nora-hale-window.webp" alt="Nora Hale by a frosted window, looking out at the snowy village" loading="lazy" width="1036" height="726" /></figure>
+
+<p>Every recipe on this site is one I cook, taste, and tweak until it works in a real home kitchen, not a restaurant one. I write them the way I'd explain them to a friend standing next to me: clear steps, honest timings, and the small tricks I wish someone had told me sooner.</p>
+
+<p>When I'm not at the stove, you'll probably find me by the window with a cup of tea, watching the snow fall and planning what to cook next. Thank you for being here. I hope these recipes bring a little warmth to your table.</p>
+
+<p><em>With love from my kitchen,<br />Nora</em> 🍳</p>
+
 <h2 class="wp-block-heading">What You'll Find Here</h2>
 
 

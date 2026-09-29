@@ -125,3 +125,14 @@ footer.site-footer .footer-nav a:hover{color:var(--accent);text-decoration:under
 .ad-slot.ad-sticky .ad-label{display:none;}
 .ad-slot.ad-inarticle2{margin-bottom:56px;}
 .ad-slot.ad-top{margin:12px auto;min-height:0;padding:0;}
+
+/* ---- About the cook ---- */
+.about-hero{margin:24px 0;}
+.about-hero img{width:100%;height:auto;border-radius:14px;display:block;}
+.author-box{display:flex;gap:18px;align-items:flex-start;margin:40px 0 8px;padding:22px;border:1px solid var(--border);border-radius:16px;background:#fff;}
+.author-box img{width:96px;height:96px;border-radius:50%;object-fit:cover;flex-shrink:0;border:3px solid var(--accent);}
+.author-kicker{font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:var(--accent);font-weight:700;}
+.author-name{font-size:1.25rem;font-weight:700;color:var(--coffee);margin:2px 0 6px;}
+.author-box p{margin:0 0 8px;line-height:1.55;}
+.author-box a{color:var(--accent);font-weight:700;text-decoration:none;}
+@media (max-width:520px){.author-box{flex-direction:column;align-items:center;text-align:center;}}

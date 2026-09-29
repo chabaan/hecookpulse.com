@@ -1,6 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import AdSlot from './AdSlot.astro';
+import AuthorBox from './AuthorBox.astro';
 import { siteConfig } from '../site.config';
 import { splitAtParagraphs } from '../lib/split';
 
@@ -97,6 +98,8 @@ const description = isFirst ? entry.data.meta : `Page ${page} of ${total}: ${ent
 				</div>
 			</div>
 		)}
+
+		{isLast && <AuthorBox />}
 
 		<AdSlot position="inarticle2" />
 
