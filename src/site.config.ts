@@ -44,9 +44,9 @@ export const siteConfig = {
 		},
 	},
 
-	// Visitor stats (GoatCounter, free & lightweight). Dashboard: https://hecookpulse.goatcounter.com
+	// Visitor stats (GoatCounter, free & lightweight). Dashboard: https://nora42.goatcounter.com
 	analytics: {
-		goatcounterCode: "hecookpulse",
+		goatcounterCode: "nora42",
 	},
 
 	// Footer
