@@ -79,6 +79,15 @@ const description = isFirst ? entry.data.meta : `Page ${page} of ${total}: ${ent
 				{recipe.instructions?.length > 0 && (
 					<div class="recipe-section"><h3>Instructions</h3><ol>{recipe.instructions.map((s: string) => <li>{s}</li>)}</ol></div>
 				)}
+				<div class="recipe-download">
+					<button type="button" class="dl-btn" data-action="pdf">
+						<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>
+						Download Recipe (PDF)
+					</button>
+					<button type="button" class="dl-btn dl-alt" data-action="txt" data-file={`${entry.id}.txt`}>
+						Save as Text
+					</button>
+				</div>
 			</div>
 		)}
 
@@ -100,4 +109,34 @@ const description = isFirst ? entry.data.meta : `Page ${page} of ${total}: ${ent
 			</nav>
 		)}
 	</article>
+	<script>
+		document.querySelectorAll<HTMLButtonElement>('.dl-btn').forEach((btn) => {
+			btn.addEventListener('click', () => {
+				const card = btn.closest('.recipe-card') as HTMLElement | null;
+				if (!card) return;
+				if (btn.dataset.action === 'pdf') {
+					document.body.classList.add('printing-recipe');
+					window.print();
+					setTimeout(() => document.body.classList.remove('printing-recipe'), 500);
+					return;
+				}
+				const lines: string[] = [];
+				card.querySelectorAll('h2, .stat, h3, li').forEach((el) => {
+					const text = (el as HTMLElement).innerText.replace(/\s*\n\s*/g, ': ').trim();
+					if (el.tagName === 'H2') lines.push(text.toUpperCase(), '');
+					else if (el.tagName === 'H3') lines.push('', text.toUpperCase());
+					else if (el.classList.contains('stat')) lines.push(text);
+					else if (el.parentElement?.tagName === 'OL') lines.push(`${[...el.parentElement.children].indexOf(el) + 1}. ${text}`);
+					else lines.push(`- ${text}`);
+				});
+				lines.push('', `Recipe from ${location.href}`);
+				const blob = new Blob([lines.join('\n')], { type: 'text/plain;charset=utf-8' });
+				const a = document.createElement('a');
+				a.href = URL.createObjectURL(blob);
+				a.download = btn.dataset.file || 'recipe.txt';
+				a.click();
+				URL.revokeObjectURL(a.href);
+			});
+		});
+	</script>
 </Base>
