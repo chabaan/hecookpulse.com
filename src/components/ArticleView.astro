@@ -1,0 +1,103 @@
+---
+import Base from '../layouts/Base.astro';
+import AdSlot from './AdSlot.astro';
+import { siteConfig } from '../site.config';
+import { splitInMiddle } from '../lib/split';
+
+interface Props { entry: any; parts: string[]; page: number } // page is 1-based
+const { entry, parts, page } = Astro.props;
+const total = parts.length;
+const isFirst = page === 1;
+const isLast = page === total;
+const base = `/${entry.id}/`;
+const urlFor = (n: number) => (n === 1 ? base : `${base}${n}/`);
+const [partA, partB] = splitInMiddle(parts[page - 1]);
+
+let recipe = null;
+if (entry.data.recipe) {
+	try { recipe = JSON.parse(entry.data.recipe); } catch { recipe = null; }
+}
+
+// Recipe schema goes on the page where the recipe card is visible.
+let recipeSchema = null;
+if (recipe && isLast) {
+	recipeSchema = {
+		"@context": "https://schema.org/",
+		"@type": "Recipe",
+		"name": recipe.title || entry.data.title,
+		"image": entry.data.image ? [`https://${siteConfig.domain}${entry.data.image}`] : undefined,
+		"author": { "@type": "Person", "name": entry.data.author || siteConfig.name },
+		"description": entry.data.meta,
+		"recipeCategory": entry.data.category,
+		"recipeIngredient": recipe.ingredients,
+		"recipeInstructions": (recipe.instructions || []).map((step: string) => ({ "@type": "HowToStep", "text": step })),
+		"prepTime": recipe.prep_time ? `PT${recipe.prep_time}M` : undefined,
+		"cookTime": recipe.cook_time ? `PT${recipe.cook_time}M` : undefined,
+		"totalTime": recipe.total_time ? `PT${recipe.total_time}M` : undefined,
+		"recipeYield": recipe.servings ? `${recipe.servings} servings` : undefined,
+		"nutrition": recipe.calories ? { "@type": "NutritionInformation", "calories": `${recipe.calories} calories` } : undefined,
+	};
+}
+
+const title = isFirst ? entry.data.title : `${entry.data.title} (Page ${page} of ${total})`;
+const description = isFirst ? entry.data.meta : `Page ${page} of ${total}: ${entry.data.meta ?? ''}`;
+---
+<Base title={title} description={description} image={entry.data.image}>
+	{recipeSchema && <script slot="head" type="application/ld+json" set:html={JSON.stringify(recipeSchema)} />}
+	<article class="post">
+		<a class="back" href="/">&larr; Back to home</a>
+		{isFirst && <img class="featured" src={entry.data.image} alt={entry.data.title} onerror="this.style.display='none'" />}
+		<div class="cat">{entry.data.category}</div>
+		<h1>{entry.data.title}</h1>
+		<div class="meta">
+			By {entry.data.author}
+			{total > 1 && <span class="page-indicator"> · Page {page} of {total}</span>}
+		</div>
+
+		<AdSlot position="top" />
+
+		<div class="content" set:html={partA} />
+		{partB && <AdSlot position="middle" />}
+		{partB && <div class="content" set:html={partB} />}
+
+		{isLast && recipe && (
+			<div class="recipe-card">
+				<h2>Recipe: {recipe.title}</h2>
+				<div class="recipe-stats">
+					{recipe.prep_time && <div class="stat"><span class="label">Prep Time</span><span class="value">{recipe.prep_time} min</span></div>}
+					{recipe.cook_time && <div class="stat"><span class="label">Cook Time</span><span class="value">{recipe.cook_time} min</span></div>}
+					{recipe.total_time && <div class="stat"><span class="label">Total Time</span><span class="value">{recipe.total_time} min</span></div>}
+					{recipe.servings && <div class="stat"><span class="label">Servings</span><span class="value">{recipe.servings}</span></div>}
+					{recipe.calories && <div class="stat"><span class="label">Calories</span><span class="value">{recipe.calories}</span></div>}
+				</div>
+				{recipe.equipment?.length > 0 && (
+					<div class="recipe-section"><h3>Equipment</h3><ul>{recipe.equipment.map((eq: string) => <li>{eq}</li>)}</ul></div>
+				)}
+				{recipe.ingredients?.length > 0 && (
+					<div class="recipe-section"><h3>Ingredients</h3><ul>{recipe.ingredients.map((ing: string) => <li>{ing}</li>)}</ul></div>
+				)}
+				{recipe.instructions?.length > 0 && (
+					<div class="recipe-section"><h3>Instructions</h3><ol>{recipe.instructions.map((s: string) => <li>{s}</li>)}</ol></div>
+				)}
+			</div>
+		)}
+
+		<AdSlot position="bottom" />
+
+		{total > 1 && (
+			<nav class="part-nav" aria-label="Article pages">
+				{!isLast && (
+					<a class="next-btn" href={urlFor(page + 1)} rel="next">
+						{page + 1 === total && recipe ? 'Next: Get the Full Recipe' : 'Continue Reading'} &rarr;
+					</a>
+				)}
+				<div class="part-links">
+					{page > 1 && <a href={urlFor(page - 1)} rel="prev">&larr; Previous</a>}
+					{Array.from({ length: total }, (_, i) => i + 1).map((n) =>
+						n === page ? <span class="current">{n}</span> : <a href={urlFor(n)}>{n}</a>
+					)}
+				</div>
+			</nav>
+		)}
+	</article>
+</Base>

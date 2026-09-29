@@ -1,0 +1,19 @@
+---
+import ArticleView from '../../components/ArticleView.astro';
+import { getCollection } from 'astro:content';
+import { splitArticle } from '../../lib/split';
+
+export async function getStaticPaths() {
+	const articles = await getCollection('articles');
+	return articles.flatMap((entry) => {
+		const parts = splitArticle(entry.body ?? '');
+		return parts.slice(1).map((_, i) => ({
+			params: { id: entry.id, part: String(i + 2) },
+			props: { entry, parts, page: i + 2 },
+		}));
+	});
+}
+
+const { entry, parts, page } = Astro.props;
+---
+<ArticleView entry={entry} parts={parts} page={page} />

@@ -34,6 +34,8 @@ const categories = [...new Set(articles.map((a) => a.data.category).filter(Boole
 		<meta name="twitter:title" content={title} />
 		<meta name="twitter:description" content={description} />
 		{ogImage && <meta name="twitter:image" content={ogImage} />}
+		{siteConfig.ads.headCode && <Fragment set:html={siteConfig.ads.headCode} />}
+		<slot name="head" />
 	</head>
 	<body>
 		<header class="site-header">

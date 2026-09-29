@@ -1,0 +1,11 @@
+---
+import { siteConfig } from '../site.config';
+interface Props { position: 'top' | 'middle' | 'bottom' }
+const code = siteConfig.ads.slots[Astro.props.position];
+---
+{code && (
+	<aside class="ad-slot" aria-label="Advertisement">
+		<span class="ad-label">Advertisement</span>
+		<Fragment set:html={code} />
+	</aside>
+)}
