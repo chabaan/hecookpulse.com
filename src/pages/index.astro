@@ -15,7 +15,7 @@ const pageItems = sorted.slice(0, pageSize);
 const lastPage = Math.ceil(sorted.length / pageSize);
 const totalArticles = sorted.length;
 ---
-<Base title={`${siteConfig.name} — Home`}>
+<Base title={`${siteConfig.name} — Home`} isHome>
 	<main>
 		<section class="welcome">
 			<div class="welcome-photo">

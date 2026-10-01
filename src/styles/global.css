@@ -32,7 +32,7 @@ header.site-header nav a:hover{color:var(--accent);}
 }
 
 .hero{background:var(--coffee);color:#fff;padding:36px 20px;text-align:center;}
-.hero h1{margin:0;font-size:2.1rem;}
+.hero h1,.hero .hero-title{margin:0;font-size:2.1rem;font-weight:700;}
 .hero p{margin:8px 0 0;opacity:.85;font-style:italic;}
 
 main{max-width:1200px;margin:0 auto;padding:36px 24px;}

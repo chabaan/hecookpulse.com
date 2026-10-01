@@ -8,8 +8,9 @@ interface Props {
 	title: string;
 	description?: string;
 	image?: string;
+	isHome?: boolean;
 }
-const { title, description = siteConfig.defaultDescription, image } = Astro.props;
+const { title, description = siteConfig.defaultDescription, image, isHome = false } = Astro.props;
 const ogImage = image ? new URL(image, Astro.site).toString() : undefined;
 const canonicalURL = new URL(Astro.url.pathname, Astro.site).toString();
 
@@ -60,7 +61,7 @@ const categories = [...new Set(articles.map((a) => a.data.category).filter(Boole
 			</button>
 		</header>
 		<div class="hero">
-			<h1>{siteConfig.name}</h1>
+			{isHome ? <h1>{siteConfig.name}</h1> : <div class="hero-title">{siteConfig.name}</div>}
 			<p>{siteConfig.tagline}</p>
 		</div>
 		<slot />
