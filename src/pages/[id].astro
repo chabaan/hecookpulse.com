@@ -1,30 +1,39 @@
 ---
 import Base from '../layouts/Base.astro';
 import ArticleView from '../components/ArticleView.astro';
+import Redirect from '../components/Redirect.astro';
 import { getCollection, render } from 'astro:content';
+import { getArticles, getRedirects } from '../lib/articles';
 import { splitArticle } from '../lib/split';
+import { cleanBody } from '../lib/recipe';
 
 export async function getStaticPaths() {
-	const articles = await getCollection('articles');
+	const articles = await getArticles();
 	const pages = await getCollection('pages');
+	const redirects = await getRedirects();
 	return [
 		...articles.map((a) => ({ params: { id: a.id }, props: { kind: 'article', entry: a } })),
 		...pages.map((p) => ({ params: { id: p.id }, props: { kind: 'page', entry: p } })),
+		...[...redirects]
+			.filter(([from]) => !from.includes('/'))
+			.map(([from, to]) => ({ params: { id: from }, props: { kind: 'redirect', to } })),
 	];
 }
 
-const { kind, entry } = Astro.props;
-const { Content } = await render(entry);
-const parts = kind === 'article' ? splitArticle(entry.body ?? '') : [];
+const { kind, entry, to } = Astro.props as any;
+const parts = kind === 'article' ? splitArticle(cleanBody(entry.body ?? '')) : [];
+const Content = kind === 'page' ? (await render(entry)).Content : null;
 ---
-{kind === 'article' ? (
+{kind === 'redirect' ? (
+	<Redirect to={to} />
+) : kind === 'article' ? (
 	<ArticleView entry={entry} parts={parts} page={1} />
 ) : (
 	<Base title={entry.data.title}>
 		<article class="post">
 			<a class="back" href="/">&larr; Back to home</a>
 			<h1>{entry.data.title}</h1>
-			<div class="content"><Content /></div>
+			<div class="content">{Content && <Content />}</div>
 		</article>
 	</Base>
 )}

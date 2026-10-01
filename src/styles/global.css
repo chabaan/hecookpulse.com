@@ -1,4 +1,4 @@
-:root{--coffee:#4a5c2f;--cream:#faf7ee;--accent:#d9752f;--border:#e6e1cf;}
+:root{--coffee:#4a5c2f;--cream:#faf7ee;--accent:#a8521a;--border:#e6e1cf;}
 *{box-sizing:border-box;}
 html,body{margin:0;padding:0;}
 body{font-family:'Trebuchet MS',Verdana,sans-serif;background:var(--cream);color:#2b2b1e;line-height:1.65;}
@@ -77,7 +77,7 @@ article.post .back{display:inline-block;margin-bottom:18px;color:var(--accent);t
 article.post img.featured{width:100%;max-height:440px;object-fit:cover;border-radius:10px;margin-bottom:22px;}
 article.post .cat{color:#8a4715;font-size:.75rem;text-transform:uppercase;font-weight:700;}
 article.post h1{color:var(--coffee);margin:10px 0;}
-article.post .meta{color:#888;font-size:.85rem;margin-bottom:24px;}
+article.post .meta{color:#6b6b6b;font-size:.85rem;margin-bottom:24px;}
 article.post .content img{max-width:100%;border-radius:8px;}
 
 footer.site-footer{text-align:center;padding:28px;color:#6b6b6b;font-size:.8rem;border-top:1px solid var(--border);margin-top:20px;}
@@ -90,7 +90,7 @@ footer.site-footer .footer-nav a:hover{color:var(--accent);text-decoration:under
 .recipe-card h3{color:var(--coffee);font-size:1.05rem;margin-bottom:10px;}
 .recipe-stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(100px,1fr));gap:12px;margin:20px 0 28px;padding:16px;background:var(--cream);border-radius:8px;}
 .recipe-stats .stat{text-align:center;}
-.recipe-stats .stat .label{display:block;font-size:.72rem;text-transform:uppercase;color:#999;letter-spacing:.4px;margin-bottom:4px;}
+.recipe-stats .stat .label{display:block;font-size:.72rem;text-transform:uppercase;color:#666;letter-spacing:.4px;margin-bottom:4px;}
 .recipe-stats .stat .value{display:block;font-size:1.1rem;font-weight:700;color:var(--coffee);}
 .recipe-section{margin-bottom:24px;}
 .recipe-section:last-child{margin-bottom:0;}
@@ -99,7 +99,7 @@ footer.site-footer .footer-nav a:hover{color:var(--accent);text-decoration:under
 
 /* ---- Ads ---- */
 .ad-slot{margin:36px auto;padding:8px 0;text-align:center;min-height:100px;clear:both;}
-.ad-label{display:block;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:#8a8a8a;margin-bottom:6px;}
+.ad-label{display:block;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:#6b6b6b;margin-bottom:6px;}
 
 /* ---- Article pages (Next) ---- */
 .page-indicator{color:var(--accent);font-weight:600;}
@@ -147,3 +147,20 @@ footer.site-footer .footer-nav a:hover{color:var(--accent);text-decoration:under
 .welcome-btn{background:var(--accent);color:#fff;font-weight:700;padding:13px 28px;border-radius:999px;text-decoration:none;}
 .welcome-link{color:var(--coffee);font-weight:700;text-decoration:none;}
 @media (max-width:760px){.welcome{grid-template-columns:1fr;gap:20px;margin:20px 16px 32px;padding:16px;}.welcome-text{text-align:center;}.welcome-text h2{font-size:1.8rem;}.welcome-actions{justify-content:center;}}
+
+/* ---- Author avatar on cards ---- */
+.avatar-img{width:28px;height:28px;border-radius:50%;object-fit:cover;flex-shrink:0;}
+article.post .meta a{color:inherit;font-weight:700;text-decoration:none;}
+
+/* ---- Recipe at a glance (page 1) ---- */
+.recipe-glance{margin:28px 0;padding:20px 22px;border:2px solid var(--accent);border-radius:16px;background:#fff;}
+.glance-head{display:flex;flex-direction:column;gap:2px;margin-bottom:12px;}
+.glance-kicker{font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:var(--accent);font-weight:700;}
+.glance-head strong{font-size:1.2rem;color:var(--coffee);}
+.recipe-glance .recipe-stats{margin:0 0 12px;}
+.glance-ingredients summary{cursor:pointer;font-weight:700;color:var(--coffee);padding:6px 0;}
+.glance-ingredients ul{margin:8px 0 0;padding-left:20px;line-height:1.6;}
+.glance-note{margin:12px 0 0;font-size:.95rem;color:#4a4a4a;}
+
+/* ---- Content images ---- */
+article.post .content img{max-width:100%;height:auto;}

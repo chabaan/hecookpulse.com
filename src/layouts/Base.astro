@@ -1,6 +1,6 @@
 ---
 import '../styles/global.css';
-import { getCollection } from 'astro:content';
+import { getArticles } from '../lib/articles';
 import { siteConfig } from '../site.config';
 import AdSlot from '../components/AdSlot.astro';
 
@@ -13,7 +13,7 @@ const { title, description = siteConfig.defaultDescription, image } = Astro.prop
 const ogImage = image ? new URL(image, Astro.site).toString() : undefined;
 const canonicalURL = new URL(Astro.url.pathname, Astro.site).toString();
 
-const articles = await getCollection('articles');
+const articles = await getArticles();
 const categories = [...new Set(articles.map((a) => a.data.category).filter(Boolean))];
 ---
 <!DOCTYPE html>
@@ -65,6 +65,19 @@ const categories = [...new Set(articles.map((a) => a.data.category).filter(Boole
 		</div>
 		<slot />
 		<AdSlot position="sticky" />
+		{siteConfig.ads.interstitialId && (
+			<script is:inline define:vars={{ adId: siteConfig.ads.interstitialId }}>
+				(function () {
+					var me = document.currentScript;
+					var show = true;
+					try {
+						show = !sessionStorage.getItem('hb_interstitial_seen');
+						sessionStorage.setItem('hb_interstitial_seen', '1');
+					} catch (e) {}
+					if (show && me) me.insertAdjacentHTML('beforebegin', '<div id="' + adId + '"></div>');
+				})();
+			</script>
+		)}
 		<footer class="site-footer">
 			<nav class="footer-nav">
 				<a href="/about-hecookpulse/">About</a>
