@@ -65,19 +65,6 @@ const categories = [...new Set(articles.map((a) => a.data.category).filter(Boole
 		</div>
 		<slot />
 		<AdSlot position="sticky" />
-		{siteConfig.ads.interstitialId && (
-			<script is:inline define:vars={{ adId: siteConfig.ads.interstitialId }}>
-				(function () {
-					var me = document.currentScript;
-					var show = true;
-					try {
-						show = !sessionStorage.getItem('hb_interstitial_seen');
-						sessionStorage.setItem('hb_interstitial_seen', '1');
-					} catch (e) {}
-					if (show && me) me.insertAdjacentHTML('beforebegin', '<div id="' + adId + '"></div>');
-				})();
-			</script>
-		)}
 		<footer class="site-footer">
 			<nav class="footer-nav">
 				<a href="/about-hecookpulse/">About</a>

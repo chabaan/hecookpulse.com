@@ -50,15 +50,13 @@ export const siteConfig = {
 			inarticle1: '<div class="hb-ad-inpage"><div class="hb-ad-inner"><div class="hbagency_cls hbagency_space_335809"></div></div></div>',
 			interscroller: "",// full-screen scroll ad (no placement yet)
 			inarticle2: "",   // end of the text (no placement yet)
-			// Site-wide: Sticky floor 728x90 (335805) + Magic Left 300x600 (335806)
+			// Site-wide: Interstitial (335807) + Sticky floor 728x90 (335805) + Magic Left 300x600 (335806)
 			sticky: [
+				"<div id='hbagency_space_335807'></div>",
 				"<div id='HB_Footer_Close_hbagency_space_335805'><div id='HB_CLOSE_hbagency_space_335805'></div><div id='HB_OUTER_hbagency_space_335805'><div id='hbagency_space_335805'></div></div></div>",
 				"<div id='HB_Footer_Close_hbagency_space_335806'><div id='HB_CLOSE_hbagency_space_335806'></div><div id='HB_OUTER_hbagency_space_335806'><div id='hbagency_space_335806'></div></div></div>",
 			].join(""),
 		},
-		// Full-screen Interstitial (335807): shown once per visit, not on every page,
-		// so mobile visitors (and Google) are not interrupted on each click.
-		interstitialId: "hbagency_space_335807",
 	},
 
 	// Visitor stats (GoatCounter, free & lightweight). Dashboard: https://nora42.goatcounter.com
