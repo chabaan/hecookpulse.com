@@ -17,16 +17,41 @@ const UA =
 
 fs.mkdirSync(OUT_DIR, { recursive: true });
 
+let browser = null;
+let warnings = 0;
+
+// Plain download first; if the image host blocks it, load the image in a real browser (Playwright).
 async function download(url) {
-	for (let attempt = 1; attempt <= 3; attempt++) {
+	try {
+		const res = await fetch(url, {
+			headers: { 'User-Agent': UA, Accept: 'image/avif,image/webp,image/*,*/*;q=0.8' },
+			signal: AbortSignal.timeout(20000),
+		});
+		if (!res.ok) throw new Error(`HTTP ${res.status}`);
+		return Buffer.from(await res.arrayBuffer());
+	} catch (err) {
+		if (warnings++ < 3) console.log(`::warning::Direct download failed (${err.message}) for ${url}, trying a browser`);
+		return downloadWithBrowser(url);
+	}
+}
+
+async function downloadWithBrowser(url) {
+	if (!browser) {
+		let playwright;
 		try {
-			const res = await fetch(url, { headers: { 'User-Agent': UA, Accept: 'image/*' } });
-			if (!res.ok) throw new Error(`HTTP ${res.status}`);
-			return Buffer.from(await res.arrayBuffer());
-		} catch (err) {
-			if (attempt === 3) throw err;
-			await new Promise((r) => setTimeout(r, 1500 * attempt));
+			playwright = await import('playwright');
+		} catch {
+			throw new Error('playwright not installed');
 		}
+		browser = await playwright.chromium.launch();
+	}
+	const page = await browser.newPage({ userAgent: UA });
+	try {
+		const res = await page.goto(url, { waitUntil: 'load', timeout: 45000 });
+		if (!res || !res.ok()) throw new Error(`browser HTTP ${res ? res.status() : 'no response'}`);
+		return await res.body();
+	} finally {
+		await page.close();
 	}
 }
 
@@ -35,6 +60,11 @@ let saved = 0;
 let failed = 0;
 
 for (const file of fs.readdirSync(ARTICLES_DIR).filter((f) => f.endsWith('.md'))) {
+	// Stop early if the image host blocks every download, instead of waiting on each image.
+	if (saved === 0 && failed >= 5) {
+		console.log('::warning::First 5 downloads all failed; stopping early.');
+		break;
+	}
 	const slug = file.replace(/\.md$/, '');
 	const mdPath = path.join(ARTICLES_DIR, file);
 	let md = fs.readFileSync(mdPath, 'utf8');
@@ -82,6 +112,7 @@ for (const file of fs.readdirSync(ARTICLES_DIR).filter((f) => f.endsWith('.md'))
 		} catch (err) {
 			failed++;
 			console.log(`  FAILED ${slug}: ${url} -> ${err.message}`);
+			if (failed <= 3) console.log(`::warning::Image failed for ${slug}: ${err.message}`);
 		}
 	}
 
@@ -91,5 +122,7 @@ for (const file of fs.readdirSync(ARTICLES_DIR).filter((f) => f.endsWith('.md'))
 	}
 }
 
+if (browser) await browser.close();
 console.log(`\nImages saved: ${saved}, failed: ${failed}, articles updated: ${changedFiles}`);
+console.log(`::notice::Images saved: ${saved}, failed: ${failed}, articles updated: ${changedFiles}`);
 if (changedFiles > 0) fs.writeFileSync('.images-changed', 'true');

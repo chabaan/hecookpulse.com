@@ -30,6 +30,11 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Install browser (for image hosts that block plain downloads)
+        run: |
+          npm install --no-save playwright@1.56.0
+          npx playwright install --with-deps chromium
+
       - name: Download external images
         run: node scripts/localize-content-images.mjs
 
