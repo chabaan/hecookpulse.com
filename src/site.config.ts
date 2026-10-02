@@ -39,9 +39,11 @@ export const siteConfig = {
 	// Ads (works with any network: AdSense, HB Agency, etc.)
 	// headCode: the script your ad network asks you to put in <head>.
 	// slots: the ad-unit code for each position. Leave "" to hide that position.
-	// HB Agency removed (2026-10-02) — all slots cleared, site currently runs ad-free.
+	// HB Agency removed (2026-10-02). Google AdSense added (2026-10-02),
+	// client ca-pub-8047981556966824 — slots still need to be filled with
+	// AdSense ad-unit codes once created in the AdSense dashboard.
 	ads: {
-		headCode: "",
+		headCode: `<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8047981556966824" crossorigin="anonymous"></script>`,
 		slots: {
 			top: "",
 			outstream: "",
