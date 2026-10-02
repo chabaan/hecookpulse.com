@@ -39,23 +39,16 @@ export const siteConfig = {
 	// Ads (works with any network: AdSense, HB Agency, etc.)
 	// headCode: the script your ad network asks you to put in <head>.
 	// slots: the ad-unit code for each position. Leave "" to hide that position.
+	// HB Agency removed (2026-10-02) — all slots cleared, site currently runs ad-free.
 	ads: {
-		headCode: '<script src="https://d3u598arehftfk.cloudfront.net/prebid_hb_37888_42726.js" async></script>',
-		// Paste each HB Agency placement code here. Leave "" to hide that position.
+		headCode: "",
 		slots: {
-			// hecookpulse_In Image (335808): under the featured image
-			top: "<div id='hbagency_space_335808'></div>",
-			outstream: "",    // video ad after the 2nd paragraph (no placement yet)
-			// hecookpulse_In Page (335809): inside the text
-			inarticle1: '<div class="hb-ad-inpage"><div class="hb-ad-inner"><div class="hbagency_cls hbagency_space_335809"></div></div></div>',
-			interscroller: "",// full-screen scroll ad (no placement yet)
-			inarticle2: "",   // end of the text (no placement yet)
-			// Site-wide: Interstitial (335807) + Sticky floor 728x90 (335805) + Magic Left 300x600 (335806)
-			sticky: [
-				"<div id='hbagency_space_335807'></div>",
-				"<div id='HB_Footer_Close_hbagency_space_335805'><div id='HB_CLOSE_hbagency_space_335805'></div><div id='HB_OUTER_hbagency_space_335805'><div id='hbagency_space_335805'></div></div></div>",
-				"<div id='HB_Footer_Close_hbagency_space_335806'><div id='HB_CLOSE_hbagency_space_335806'></div><div id='HB_OUTER_hbagency_space_335806'><div id='hbagency_space_335806'></div></div></div>",
-			].join(""),
+			top: "",
+			outstream: "",
+			inarticle1: "",
+			interscroller: "",
+			inarticle2: "",
+			sticky: "",
 		},
 	},
 
