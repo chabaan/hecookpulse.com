@@ -41,6 +41,17 @@ const categories = [...new Set(articles.map((a) => a.data.category).filter(Boole
 		{siteConfig.analytics?.goatcounterCode && (
 			<script is:inline async data-goatcounter={`https://${siteConfig.analytics.goatcounterCode}.goatcounter.com/count`} src="https://gc.zgo.at/count.js"></script>
 		)}
+		{siteConfig.analytics?.ga4MeasurementId && (
+			<>
+				<script is:inline async src={`https://www.googletagmanager.com/gtag/js?id=${siteConfig.analytics.ga4MeasurementId}`}></script>
+				<script is:inline define:vars={{ gaId: siteConfig.analytics.ga4MeasurementId }}>
+					window.dataLayer = window.dataLayer || [];
+					function gtag(){dataLayer.push(arguments);}
+					gtag('js', new Date());
+					gtag('config', gaId);
+				</script>
+			</>
+		)}
 	</head>
 	<body>
 		<header class="site-header">

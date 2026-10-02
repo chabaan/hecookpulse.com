@@ -53,8 +53,11 @@ export const siteConfig = {
 	},
 
 	// Visitor stats (GoatCounter, free & lightweight). Dashboard: https://nora42.goatcounter.com
+	// Also runs Google Analytics 4 (added 2026-10-02) so traffic geography can be checked
+	// before applying to ad networks that have geographic eligibility requirements.
 	analytics: {
 		goatcounterCode: "nora42",
+		ga4MeasurementId: "G-3TE8JVSRMN",
 	},
 
 	// Footer
